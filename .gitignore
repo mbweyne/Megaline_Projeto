@@ -1,0 +1,26 @@
+# Ignore arquivos temporários
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Ignore notebooks temporários
+.ipynb_checkpoints/
+
+# Ignore ambientes virtuais
+env/
+venv/
+.venv/
+ENV/
+
+# Ignore arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de configuração pessoais
+*.vscode/
+*.idea/
+
+# Ignore arquivos de dados locais
+/datasets/
